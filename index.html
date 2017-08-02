@@ -40,19 +40,12 @@
   </h1>
 </div>
     <div class="intro">
-        <p> My name is Nick Faulkner and I am currently a sophmore at Brown University. I was born and raised in a small tourist town
-          called Homer, Alaska. (The picture of above was taken in Homer of its famous Katchemak Bay) For highschool, I decided to attend
-          Phillips Academy Andover in Andover, Massachussets. After four, amazing years at Andover, I then chose to attend Brown
-          University.
+        <p> My name is Nick Faulkner and I am currently a sophomore at Brown University. I was born and raised in a small tourist town called Homer, Alaska (the picture above was taken in Homer of its famous Katchemak Bay). For high school, I decided to attend Phillips Academy Andover in Andover, Massachusetts. After four amazing years at Andover, I then chose to attend Brown University.
         </p>
       </div>
       <div class="cspart">
         <p>
-          During my freshman fall at Brown, I decided to take an introductory computer science class, as it was something I had never
-          done before but was very interested in. As it turns out, I absolutely loved in and decided to major in it. My passion for
-          computer science comes in the form of using to create programs that allow people to take advantage of our greatets resource: eachother.
-          I admire modern day companies that use technology to bring people together for mututal benefit. Developing and
-          making these sorts of technologies easy to use and accesible to everyone is a goal I have for myself moving forward.
+          During my freshman fall at Brown, I spontaneously decided to take an introductory computer science class, as it was something I had never done before but was very interested in. After a semester of hard work, I found that I absolutely loved it and plan to pursue a major in it. My passion for computer science lies largely in using it to create programs that allow people to take advantage of our greatest resource: each other. I admire modern day companies that use technology to bring people together for mutual benefit. Developing and making these sorts of technologies easy to use and accessible to everyone is a goal I have for myself moving forward.
         </p>
       </div>
 </section>
@@ -102,51 +95,75 @@
 </div>
 </div>
 
-<button class="tablink" onclick="openCity('London', this, '#ff751a')" id="defaultOpen">Pacman</button>
+<button class="tablink" onclick="openCity('London', this, '#ff751a')" id="defaultOpen">Tix</button>
+<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Pacman</button>
 <button class="tablink" onclick="openCity('Paris', this, '#33cc33')">Tetris</button>
-<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Doodle Jump</button>
 <button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
 
+
 <div id="London" class="tabcontent">
-  <div class="pacmanImage">
-    <img src="images/pac-man.jpg" alt="Pac-Man Picture" style="width:25%;height:25%;float:left; margin-top: 10%;">
+  <div id="tixImage">
+    <img src="images/tix.png" alt="Tetris Picture" style="width:25%;height:25%;float:left; margin-top: 13%; margin-left:5%;">
 </div>
-<div class="pacmanHeading">
-  <h1>Pac-Man</h1>
+<div class="tixbody">
+	<div class="tixHeading">
+  <h1>Tix</h1>
+	</div>
+	<a href="https://tixconcerts.herokuapp.com"> tixconcerts.com </a>
+	<br>
+ 	<a href="https://github.com/nmfaulkner/TIX"> My Code </a>
+  <p> During the summer after my freshman year of college, my friends and I were looking for concerts in the Boston area. I found it extremely frustrating that there was no way to have a "favorite artists" list on ticketmaster or stubhub. This was the beginnings of my idea for Tix. 
+  </p>
+  <p>
+  Using Spotify and Ticketmaster's API, Tix allows you to conveniently view all of the concerts for your top artist on Spotify. I developed Tix completely on my own, and it helped me gain a tremendous amount of knowledge and experience using API's and developing a website in general. As of right now, 35 new people use Tix each day, and this number is still growing as I continue to develop its functionality.
+  </p>
 </div>
- <div class="pacmanlink">
-  <a href="https://github.com/nmfaulkner/pacman"> My Code </a>
 </div>
-<div class="pacmanbody">
-  <p> As the final project to my introductory computer science class, I had to choose from a variety of games to make from scrath,
-    and I chose Pacman. Built in Java, using object-oriented programming, I created Pacman completely on my own, without any stencil
-    code. For the ghosts searching functionality, I created an algorithm that uses breadth first search of the board to continuously
-    update the ghost's target location.
-</div>
-</div>
+
+
+
 
 <div id="Paris" class="tabcontent">
   <div class="tetrisImage">
-    <img src="images/tetris.jpg" alt="Tetris Picture" style="width:23%;height:23%;float:left; margin-top: 5%;">
+    <img src="images/tetris.jpg" alt="Tetris Picture" style="width:23%;height:23%;float:left; margin-top: 5%; margin-left: 80px;">
 </div>
-<div class="tetrisHeading">
+<!-- <div class="tetrisHeading">
   <h1>Tetris</h1>
 </div>
 <div class="tetrislink">
  <a href="https://github.com/nmfaulkner/Tetris"> My Code </a>
+</div> -->
+<div class="tetrisbody">
+	<div class="tetrisHeading">
+  	<h1>Tetris</h1>
+	</div>
+	<a href="https://github.com/nmfaulkner/Tetris"> My Code </a>
+  <p> TETRIS PARAGRAPH
+  </p>
+</div>
+</div>
+
+
+
+
+<div id="Tokyo" class="tabcontent">
+<div class="pacmanImage">
+    <img src="images/pac-man.jpg" alt="Pac-Man Picture" style="width:25%;height:25%;float:left; margin-top: 10%;margin-left: 80px;">
 </div>
 <div class="pacmanbody">
+<div class="pacmanHeading">
+  	<h1>Pac-Man</h1>
+</div>
+<a href="https://github.com/nmfaulkner/pacman"> My Code </a>
   <p> As the final project to my introductory computer science class, I had to choose from a variety of games to make from scrath,
     and I chose Pacman. Built in Java, using object-oriented programming, I created Pacman completely on my own, without any stencil
     code. For the ghosts searching functionality, I created an algorithm that uses breadth first search of the board to continuously
     update the ghost's target location.
 </div>
-</div>
+ </div>
 
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
+
+
 
 <div id="Oslo" class="tabcontent">
   <h3>Oslo</h3>
@@ -192,16 +209,15 @@ document.getElementById("defaultOpen").click();
   <div class="experienceheadings">
   <h1> Black Duck Software </h1>
 </div>
-<img src="images/blackduck.png" alt="BlackDuck Logo" style="width:20%;height:20%;float:right;margin-right: 10%;margin-top:5%;">
+<img src="images/blackduck.png" alt="BlackDuck Logo" style="width:20%;height:20%;float:right;margin-right: 10%;margin-top:12%;">
   <div class="experienceparagraph">
   <p>
-    Black Duck Software is an open source risk assesment firm. By scanning a client's code, Black Duck's software can succesfully
-    dermine any security risks apparent in the open source components, any liscensing issues that may exist with these componenets,
-    and well this component is operating. Black Duck Software is an open source risk assesment firm. By scanning a client's code, Black Duck's software can succesfully
-    dermine any security risks apparent in the open source components, any liscensing issues that may exist with these componenets,
-    and well this component is operating.Black Duck Software is an open source risk assesment firm. By scanning a client's code, Black Duck's software can succesfully
-    dermine any security risks apparent in the open source components, any liscensing issues that may exist with these componenets,
-    and well this component is operating.
+    Black Duck Software is an open source risk management firm with three hundred full time employees and nearly eighty million dollars in annual revenue. By scanning clients’ code, Black Duck identifies every open-source component used in individual programs. Utilizing its deep knowledge base, Black Duck identifies the licenses and security risks associated with each open-source component, and then evaluates the danger for the company in having those open-source components in their code. Black Duck's notable partners include Google, HP, and RedHat, and its notable customers include Samsung, Intel, NASA, and Uber.
+    </p>
+
+   <p> 
+	The summer after my freshman year of college, I worked at Black Duck as a Sales Engineer Intern. As a Sales Engineer Intern, I worked closely with both the business and technological side of the company. A majority of my time was spent working alongside the integrations team to develop new functionality for our product. I spent several weeks developing a program in Java that would identify open-source dependencies in projects written in R, a language used mostly for data science. This program was then implemented into one of the company's new products: Black Duck Hub-Detect. In addition to programming, I was also able to experience the business side of technology and understand better the nuance of how deals are made with customers. Specifically, providing proof of concepts and demos for customers helped me gain a deep knowledge of Black Duck’s product and how to implement it.
+
   </p>
 </div>
 
@@ -233,12 +249,7 @@ document.getElementById("defaultOpen").click();
   <img src="images/landsend.png" alt="Land's End Logo" style="width:25%;height:25%;float:right;margin-right: 10%;margin-top:5%;">
   <div class="experienceparagraph">
   <p>
-  Land's End Resort is year-round resort in Homer, Alaska. The resort features a high-end restaurant, spa, condos, and 300+ plus rooms, and
-  employs about 75 employees each year. I stated working at Land's End the summer before my freshman year of highschool. I worked as
-  a member of Land's End housekeeping team for two summers cleaning hotel rooms and washing laundry to remake the rooms. After two summers
-  as a houskeeper, I moved to the maintenence team, where I was involved in everything from painting, landscaping, construction, and fixing
-  appliances for guests. For the summers after my junior and senior year of highschool, I worked in Land's End's restaurant as busser and
-  food runner/expoditor.
+ 	Land's End Resort is year-round resort in Homer, Alaska. The resort is comprised of a high-end restaurant, spa, several condos, and more than three hundred rooms. Land’s End Resort employs about seventy-five employees each year. I started working at Land's End the summer before my freshman year of highschool. I worked as a member of Land's End housekeeping team for two summers cleaning hotel rooms and washing laundry to remake the rooms. After two summers as a housekeeper, I moved to the maintenance team, where I was involved in everything from painting, landscaping, construction, and fixing appliances, to picking up guests at the airport and carrying their bags. For the summers after my junior and senior years of highschool, I worked in Land's End's restaurant as a busser and food runner/expeditor.
   </p>
 </div>
 

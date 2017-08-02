@@ -17,7 +17,7 @@
     font-size: 110%;
     height: 20px;
     opacity: .8;
-    font-family: "open sans", helvetica, sans-serif;
+    font-family: 'Questrial', sans-serif;
     /*font-family: 'Quattrocento', serif;
     font-size: 110%;*/
 }
@@ -168,16 +168,17 @@ body, html {
 }
 
 /* Style each tab content individually */
-#London {background-color:white; height: 90%;}
+#London {background-color:white; height: 600px;}
 #Paris {background-color:white; height: 600px;}
-#Tokyo {background-color:white; height: 650px;}
-#Oslo {background-color:white; height: 650px;}
+#Tokyo {background-color:white; height: 600px;}
+#Oslo {background-color:white; height: 600px;}
 
 .pacmanHeading {
   font-family: 'Questrial', sans-serif;
   font-size: 150%;
-  color: #ff751a;
-  margin-left: 20%;
+  color: blue;
+  margin-top: 60px;
+  text-align: center;
 }
 
 .pacmanbody {
@@ -185,25 +186,48 @@ body, html {
   font-family: 'Quattrocento', serif;
   line-height: 130%;
   color: black;
-  margin-left: 30%;
-  text-align: left;
-  width: 70%;
+  text-align: center;
+  float: right;
+  width: 60%;
+  margin-right: 30px;
 }
 
 .tetrisHeading {
   font-family: 'Questrial', sans-serif;
   font-size: 150%;
-  color: #66FFFF;
-  margin-left: 20%;
+  color: #33cc33;
+  margin-top: 60px;
+  text-align: center;
 }
 
 .tetrisbody {
   font-size: 20px;
-  font-family: "open sans", helvetica, sans-serif;
+  font-family: 'Quattrocento', serif;
+  line-height: 130%;
   color: black;
-  margin-left: 30%;
-  text-align: left;
-  width: 70%;
+  text-align: center;
+  float: right;
+  width: 60%;
+  margin-right: 30px;
+}
+
+.tixHeading{
+  font-family: 'Questrial', sans-serif;
+  font-size: 165%;
+  color: #ff751a;
+  margin-top: 60px;
+}
+
+.tixbody{
+  /*display: block;*/
+  font-size: 20px;
+  font-family: 'Quattrocento', serif;
+  line-height: 130%;
+  color: black;
+  text-align: center;
+  float: right;
+  width: 60%;
+  margin-right: 30px;
 }
 
 
@@ -234,7 +258,8 @@ body, html {
 footer{
   text-align: center;
   height: 85%;
-  background: linear-gradient(#00001a, #00001a, #142952);
+  background-color: #00001a;
+  /*background: linear-gradient(#00001a, #00001a, #0f1e3e);*/
   /*background-color: #00001a;*/
   padding-top: 10%;
   font-size: 200%;
@@ -243,7 +268,7 @@ footer{
 
 .footerheading{
   font-family: 'Questrial', sans-serif;
-  font-size: 90%;
+  font-size: 80%;
 }
 
 
