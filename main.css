@@ -95,6 +95,23 @@ body, html {
 
 }
 
+.educationHeading{
+  font-family: 'Questrial', sans-serif;
+  font-size: 290%;
+  padding-left: 2%;
+}
+
+.brownText{
+  float:right;
+  margin-right:20%;
+  margin-top:25px;
+  font-family: 'Quattrocento', serif;
+  }
+
+  .brownHeading{
+    font-size:200%;
+  }
+
 .skillsheading{
   font-family: 'Questrial', sans-serif;
   font-size: 175%;
