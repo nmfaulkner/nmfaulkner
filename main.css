@@ -12,7 +12,7 @@
     float: right;
     display:inline;
     color: #00004d;
-    padding: 25px 10px;
+    padding: 2% 20px;
     text-decoration: none;
     font-size: 110%;
     height: 20px;
@@ -56,6 +56,9 @@ body, html {
     position: relative;
 }
 
+.preheading{
+  font-size: 50%;
+}
 /* Place text in the middle of the image */
 .hero-text {
     text-align: left;
@@ -68,8 +71,14 @@ body, html {
     font-size: 450%;
 }
 
-.subheading a:hover{
-  color: aqua;
+/*.openingHeading::before,
+.openingHeading::after{
+  background-color: #333;
+}*/
+
+
+.aboutme{
+  height: 70%;
 }
 
 .aboutmeheading {
@@ -78,20 +87,14 @@ body, html {
 }
 
 .intro{
+  display:block;
   font-family: 'Quattrocento', serif;
   font-size: 110%;
   line-height: 130%;
-  padding-left: 5%;
-  width: 90%;
-
-}
-
-.cspart{
-  font-family: 'Quattrocento', serif;
-  font-size: 110%;
-  line-height: 130%;
-  padding-left: 5%;
-  width: 90%;
+  width: 60%;
+  float:right;
+  margin-top:20px;
+  margin-right:5%;
 
 }
 
@@ -103,14 +106,29 @@ body, html {
 
 .brownText{
   float:right;
-  margin-right:20%;
+  margin-right:10%;
   margin-top:25px;
   font-family: 'Quattrocento', serif;
+  width: 40%;
   }
 
-  .brownHeading{
-    font-size:200%;
+.brownHeading{
+  font-size:250%;
+  text-align: center;
+}
+
+.andoverText{
+  float:right;
+  margin-right:10%;
+  margin-top:50px;
+  font-family: 'Quattrocento', serif;
+  width: 40%;
   }
+
+.andoverHeading{
+  font-size:250%;
+  text-align: center;
+}
 
 .skillsheading{
   font-family: 'Questrial', sans-serif;
