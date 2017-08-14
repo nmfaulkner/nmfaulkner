@@ -76,14 +76,13 @@ body, html {
   background-color: #333;
 }*/
 
-
-.aboutme{
-  height: 70%;
-}
-
 .aboutmeheading {
   font-family: 'Questrial', sans-serif;
   font-size: 175%;
+}
+
+.aboutMeSection{
+    display: flex;
 }
 
 .intro{
@@ -93,8 +92,7 @@ body, html {
   line-height: 130%;
   width: 60%;
   float:right;
-  margin-top:20px;
-  margin-right:5%;
+  margin:auto;
 
 }
 
@@ -203,10 +201,21 @@ body, html {
 }
 
 /* Style each tab content individually */
-#London {background-color:white; height: 600px;}
-#Paris {background-color:white; height: 600px;}
-#Tokyo {background-color:white; height: 600px;}
-#Oslo {background-color:white; height: 600px;}
+#London {
+    background-color:white;
+}
+
+#Paris {
+    background-color:white;
+}
+
+#Tokyo {
+    background-color:white;
+}
+
+#Oslo {
+    background-color:white;
+}
 
 .pacmanHeading {
   font-family: 'Questrial', sans-serif;
@@ -246,23 +255,33 @@ body, html {
   margin-right: 30px;
 }
 
+.tixContent{
+    display: flex;
+}
+
 .tixHeading{
   font-family: 'Questrial', sans-serif;
-  font-size: 165%;
+  font-size: 250%;
   color: #ff751a;
-  margin-top: 60px;
+    padding-right:15px;
 }
 
 .tixbody{
   /*display: block;*/
   font-size: 20px;
   font-family: 'Quattrocento', serif;
-  line-height: 130%;
+  line-height: 115%;
   color: black;
+    margin-left: 5%;
+/*
   text-align: center;
   float: right;
+*/
   width: 60%;
-  margin-right: 30px;
+}
+
+.blackduckBody{
+    display:flex;
 }
 
 
