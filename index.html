@@ -20,7 +20,6 @@
     <a href="#footing">Contact Me</a>
     <a href="#experience"> Experience </a>
     <a href="#myProjects">Projects </a>
-    <a href="#languageskills"> Skills </a>
     <a href="#aboutme"> About Me </a>
     <a href="BlankPages.docx"> Resume </a>
   </div>
@@ -55,88 +54,6 @@
 
 <hr>
 
-<!-- <section class="education">
-<div class="educationHeading">
-<h> Education </h>
-</div>
-
-<div class="brown">
-<img src="images/brown-logo.png" alt="Brown University" style="width:360px;height:200px;margin-left: 8%;margin-top:25px;">
-<div class="brownText">
-<div class="brownHeading">
-<h> Brown University </h>
-</div>
-<ul>
-<li>
-Currently pursuing a Bachelor of Science degree in Computer Science
-</li>
-<li>
-Member of the class of 2020
-</li>
-</ul>
-</div>
-</div>
-
-<div class="andover">
-<img src="images/andoverlogo.png" alt="Tetris Picture" style="width:225px;height:250px;margin-left: 12%;margin-top:50px;">
-<div class="andoverText">
-<div class="andoverHeading">
-<h> Phillips Academy Andover </h>
-</div>
-<ul>
-<li>
-Currently pursuing a Bachelor of Science degree in Computer Science
-</li>
-<li>
-Member of the class of 2020
-</li>
-</ul>
-</div>
-
-</div>
-
-
-
-</section>
- -->
-<!-- <hr> -->
-
-<!-- <section cass="skills" id="languageskills">
-  <div class="skillsheading">
-  <h1>
-    Language Skills
-  </h1>
-</div>
-
-  <p class="language">Java</p>
-  <div class="container">
-    <div class="skills java"> Advancded </div>
-  </div>
-
-<p class="language">Python</p>
-<div class="container">
-  <div class="skills python">Proficient</div>
-</div>
-
-<p class="language">HTML</p>
-<div class="container">
-  <div class="skills html">Proficient</div>
-</div>
-
-<p class="language">JavaScript</p>
-<div class="container">
-  <div class="skills javascript">Intermediate</div>
-</div>
-
-<p class="language">Ruby</p>
-<div class="container">
-  <div class="skills ruby">Sufficient</div>
-</div>
-
-</section>
-
-<hr> -->
-
 <div class="myProjects" id="myProjects">
 <div class="myprojectsheading">
 <h1>
@@ -146,16 +63,16 @@ Member of the class of 2020
 
     <div class="projectsNav">
 <button class="tablink" onclick="openCity('London', this, '#ff751a')" id="defaultOpen">Tix</button>
-<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Pacman</button>
-<button class="tablink" onclick="openCity('Paris', this, '#33cc33')">Tetris</button>
-<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+<button class="tablink" onclick="openCity('Tokyo', this, '#0066ff')">Pacman</button>
+<button class="tablink" onclick="openCity('Paris', this, '#33cc33')">Chrome Extension</button>
+<button class="tablink" onclick="openCity('Oslo', this, '#e62e00')">Website Parser</button>
     </div>
 
 <div id="London" class="tabcontent">
-    <div class="tixContent">
+    <div class="projectContent">
     <img src="images/Tix.png" alt="Tetris Picture" style="width:25%;height:25%;margin:auto;">
 
-<div class="tixbody">
+<div class="projectbody">
     <div class="tixHeading">
   <h2>Tix</h2>
 	</div>
@@ -172,16 +89,16 @@ Member of the class of 2020
 </div>
     
     <div id="Tokyo" class="tabcontent">
-        <div class="tixContent">
+        <div class="projectContent">
     <img src="images/pac-man.jpg" alt="Pac-Man Picture" style="width:25%;height:25%;margin:auto;margin-top:4%;">
 
-<div class="tixbody">
+<div class="projectbody">
 <div class="pacmanHeading">
   	<h1>Pac-Man</h1>
 </div>
 <a href="https://github.com/nmfaulkner/pacman"> My Code </a>
   <p> As the final project to my introductory computer science class, I had to choose from a variety of games to make from scrath,
-    and I chose Pacman. Built in Java, using object-oriented programming, I created Pacman completely on my own, without any stencil
+    and I chose Pacman. Written in Java, using object-oriented programming, I created Pacman completely on my own, without any stencil
     code. For the ghosts searching functionality, I created an algorithm that utilizes breadth first search of the board to continuously
     update the ghost's target location.
 </div>
@@ -192,16 +109,17 @@ Member of the class of 2020
 
 
 <div id="Paris" class="tabcontent">
-    <div class="tixContent">
-    <img src="images/tetris.jpg" alt="Tetris Picture" style="width:23%;height:23%;float:left;margin:auto;">
+    <div class="projectContent">
+    <img src="images/chrome.png" alt="Chrome Picture" style="width:15%;height:15%;float:left;margin:auto;">
 
-<div class="tetrisbody">
+<div class="projectbody">
     <div class="tetrisHeading">
-  <h1>Tetris</h1>
+  <h1>Read to Me</h1>
 </div>
-	<a href="https://github.com/nmfaulkner/Tetris"> My Code </a>
-  <p> TETRIS PARAGRAPH
+	<a href="https://github.com/nmfaulkner/audioChromeExtension"> My Code </a>
+  <p> Read to me is a chrome extension that reads highlighted text to you. I got the idea for this when I had to read an online article for a class. I knew most computers had the basic functionality of reading text to the user, but I wanted to learn how the technology works while also gaining some experience with chrome extension. The result was my first chrome extension-- Read to Me.
   </p>
+    
 </div>
     </div>
 </div>
@@ -210,8 +128,18 @@ Member of the class of 2020
 
 
 <div id="Oslo" class="tabcontent">
-  <h3>Oslo</h3>
-  <p>Oslo is the capital of Norway.</p>
+   <div class="projectContent">
+    <img src="images/python_logo.png" alt="Chrome Picture" style="width:33%;height:33%;float:left;margin:auto;">
+
+<div class="projectbody">
+    <div class="otherProjectsHeading">
+  <h1>Website Parser</h1>
+</div>
+	<a href="https://github.com/nmfaulkner/websiteParser"> My Code </a>
+  <p> During my internship at Black Duck, I was tasked with a project of creating an excel spreadsheet of companies that were attending a tech conference. To do this manually would have taken me hours if not days to do, so I decided to write a Python script to do it for me. This Python script parsed the HTML on the webpage to gather information given on the page and created an excel spread sheet from that data. This allowed me to finish the project much quicker than expected and was much less tedious.
+  </p>
+</div>
+    </div>
 </div>
 
 
@@ -253,14 +181,14 @@ document.getElementById("defaultOpen").click();
   <div class="experienceheadings">
   <h1> Black Duck Software </h1>
 </div>
-    <div class="blackduckBody">
+    <div class="experienceBody">
   <div class="experienceparagraph">
   <p>
-    Black Duck Software is an open source risk management firm with three hundred full time employees and nearly eighty million dollars in annual revenue. By scanning clients’ code, Black Duck identifies every open-source components used in a company's software. Utilizing its deep knowledge base, Black Duck identifies the licenses and security risks associated with each open-source component, and then evaluates the danger for the company in having those open-source components in their code. Black Duck's notable partners include Google, HP, and RedHat, and a few of its notable customers include Samsung, Intel, NASA, Uber, Verizon, BP, and Reddit.
+    Black Duck Software is an open source risk management firm with three hundred full time employees and nearly eighty million dollars in annual revenue. By scanning clients’ code, Black Duck identifies the open-source components used in the company's software, and reports the potential liscense and security risks associated with these components. Black Duck's notable partners include Google, HP, and RedHat, and a few of its notable customers include Samsung, Intel, NASA, Uber, Verizon, BP, and Reddit.
     </p>
 
    <p> 
-	The summer after my freshman year of college, I worked at Black Duck as a Sales Engineer Intern. As a Sales Engineer Intern, I worked closely with both the software engineering and business teams. A majority of my time was spent working alongside the integrations team to develop new functionality for our products. I spent several weeks developing a program in Java that would identify open-source dependencies in projects written in R, a language used mostly for data science. This program was then implemented into he company's main product: Black Duck Hub-Detect. In addition to programming, I was also able to experience the business side of technology and understand better the nuance of how deals are made with customers in the tech industry. Specifically, providing proof of concepts and demos for customers helped me gain a deep knowledge of Black Duck’s product and how to implement it.
+	The summer after my freshman year of college, I worked at Black Duck as a Sales Engineer Intern. As a Sales Engineer Intern, I worked closely with both the software engineering and business teams. A majority of my time was spent working alongside the integrations team to develop new functionality for our products. I spent several weeks developing a program in Java that would identify open-source dependencies in projects written in R, a language used mostly for data science. This program was then implemented into the company's flagship product: Black Duck Hub-Detect. In addition to programming, I was also able to experience the business side of technology and understand better the nuance of how deals are made with customers in the tech industry. Specifically, providing proof of concepts and demos for customers helped me gain a deep knowledge of Black Duck’s product and how to implement it.
 
   </p>
 </div>
@@ -272,7 +200,7 @@ document.getElementById("defaultOpen").click();
   <div class="experienceheadings">
   <h1>Rough Draft Academy </h1>
 </div>
-    <div class="blackduckBody">
+    <div class="experienceBody">
   <div class="experienceparagraph">
   <p>
     Black Duck Software is an open source risk assesment firm. By scanning a client's code, Black Duck's software can succesfully
@@ -292,7 +220,7 @@ document.getElementById("defaultOpen").click();
   <div class="experienceheadings">
   <h1>Land's End Resort </h1>
 </div>
-    <div class="blackduckBody">
+    <div class="experienceBody">
   <div class="experienceparagraph">
   <p>
  	Land's End Resort is year-round resort in Homer, Alaska. The resort is comprised of a high-end restaurant, spa, several condos, and more than three hundred rooms. Land’s End Resort employs about seventy-five employees each year. I started working at Land's End the summer before my freshman year of highschool. I worked as a member of Land's End housekeeping team for two summers cleaning hotel rooms and washing laundry to remake the rooms. After two summers as a housekeeper, I moved to the maintenance team, where I was involved in everything from painting, landscaping, construction, and fixing appliances, to picking up guests at the airport and carrying their bags. For the summers after my junior and senior years of highschool, I worked in Land's End's restaurant as a busser and food runner/expeditor.
@@ -315,9 +243,9 @@ document.getElementById("defaultOpen").click();
      Feel free to contact me
     </p>
 </div>
-  <a href="mailto:nmfaulkner@gmail.com" class="fa fa-envelope" style="font-size:180%;height:100px;width:100px;"></a>
-  <a href="https://www.linkedin.com/in/nmfaulkner/" class="fa fa-linkedin" style="font-size:180%;height:100px;width:100px;"></a>
-  <a href="https://github.com/nmfaulkner" class="fa fa-github" style="font-size:180%;height:100px;width:100px;"></a>
+  <a href="mailto:nmfaulkner@gmail.com" class="fa fa-envelope" style="font-size:180%;height:70px;width:70px;"></a>
+  <a href="https://www.linkedin.com/in/nmfaulkner/" class="fa fa-linkedin" style="font-size:180%;height:70px;width:70px;"></a>
+  <a href="https://github.com/nmfaulkner" class="fa fa-github" style="font-size:180%;height:70px;width:70px;"></a>
 
 </footer>
 

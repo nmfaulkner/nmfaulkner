@@ -12,14 +12,12 @@
     float: right;
     display:inline;
     color: #00004d;
-    padding: 2% 20px;
+    padding: 2% 2%;
     text-decoration: none;
     font-size: 110%;
-    height: 20px;
+    height: 10%;
     opacity: .8;
     font-family: 'Questrial', sans-serif;
-    /*font-family: 'Quattrocento', serif;
-    font-size: 110%;*/
 }
 
 
@@ -71,11 +69,6 @@ body, html {
     font-size: 450%;
 }
 
-/*.openingHeading::before,
-.openingHeading::after{
-  background-color: #333;
-}*/
-
 .aboutmeheading {
   font-family: 'Questrial', sans-serif;
   font-size: 175%;
@@ -95,79 +88,6 @@ body, html {
   margin:auto;
 
 }
-
-.educationHeading{
-  font-family: 'Questrial', sans-serif;
-  font-size: 290%;
-  padding-left: 2%;
-}
-
-.brownText{
-  float:right;
-  margin-right:10%;
-  margin-top:25px;
-  font-family: 'Quattrocento', serif;
-  width: 40%;
-  }
-
-.brownHeading{
-  font-size:250%;
-  text-align: center;
-}
-
-.andoverText{
-  float:right;
-  margin-right:10%;
-  margin-top:50px;
-  font-family: 'Quattrocento', serif;
-  width: 40%;
-  }
-
-.andoverHeading{
-  font-size:250%;
-  text-align: center;
-}
-
-.skillsheading{
-  font-family: 'Questrial', sans-serif;
-  font-size: 175%;
-}
-
-/* Make sure that padding behaves as expected */
-* {box-sizing:border-box}
-
-/* Container for skill bars */
-.container {
-    width: 90%; /* Full width */
-    background-color: #ddd; /* Grey background */
-    margin-left: 3%;
-    font-family: 'Quattrocento', serif;
-}
-
-.skills {
-    text-align: right; /* Right-align text */
-    padding-right: 20px; /* Add some right padding */
-    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
-    color: white; /* White text color */
-}
-
-.skills h1{
-  padding-left: 30px;
-}
-
-.language {
-  padding-left: 4%;
-  margin-top: 3%;
-  font-family: 'Quattrocento', serif;
-  font-size: 110%;
-}
-
-.java {width: 90%; background-color: #33cc33;} /* Green */
-.python {width: 80%; background-color: blue;} /* Blue */
-.html {width: 80%; background-color: #f44336;} /* Red */
-.javascript {width: 60%; background-color: #808080;} /* Dark Grey */
-.ruby {width: 50%; background-color: #ff751a;} /* Dark Grey */
-
 
 .myprojectsheading{
   font-family: 'Questrial', sans-serif;
@@ -194,46 +114,17 @@ body, html {
 
 /* Set default styles for tab content */
 .tabcontent {
-    color: white;
     display: none;
     padding: 50px;
     text-align: center;
 }
 
-/* Style each tab content individually */
-#London {
-    background-color:white;
-}
-
-#Paris {
-    background-color:white;
-}
-
-#Tokyo {
-    background-color:white;
-}
-
-#Oslo {
-    background-color:white;
-}
-
 .pacmanHeading {
   font-family: 'Questrial', sans-serif;
   font-size: 150%;
-  color: blue;
+  color: #0066ff;
   margin-top: 60px;
   text-align: center;
-}
-
-.pacmanbody {
-  font-size: 20px;
-  font-family: 'Quattrocento', serif;
-  line-height: 130%;
-  color: black;
-  text-align: center;
-  float: right;
-  width: 60%;
-  margin-right: 30px;
 }
 
 .tetrisHeading {
@@ -244,18 +135,15 @@ body, html {
   text-align: center;
 }
 
-.tetrisbody {
-  font-size: 20px;
-  font-family: 'Quattrocento', serif;
-  line-height: 130%;
-  color: black;
+.otherProjectsHeading {
+  font-family: 'Questrial', sans-serif;
+  font-size: 150%;
+  color: #e62e00;
+  margin-top: 60px;
   text-align: center;
-  float: right;
-  width: 60%;
-  margin-right: 30px;
 }
 
-.tixContent{
+.projectContent{
     display: flex;
 }
 
@@ -266,21 +154,17 @@ body, html {
     padding-right:15px;
 }
 
-.tixbody{
+.projectbody{
   /*display: block;*/
   font-size: 20px;
   font-family: 'Quattrocento', serif;
   line-height: 115%;
   color: black;
-    margin-left: 5%;
-/*
-  text-align: center;
-  float: right;
-*/
+  margin-left: 5%;
   width: 60%;
 }
 
-.blackduckBody{
+.experienceBody{
     display:flex;
 }
 
@@ -333,7 +217,7 @@ footer{
   text-align: center;
   text-decoration: none;
   margin-top:auto;
-  margin: 5px 2px;
+  margin: 5px 3px;
 }
 
 .fa:hover {
